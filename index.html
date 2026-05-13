@@ -9,20 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .lang-select {
-            background: white;
-            border: 1px solid #e5e7eb;
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-            cursor: pointer;
-            font-size: 0.875rem;
-            transition: all 0.3s;
-        }
-        .lang-select:hover {
-            border-color: #3b82f6;
-        }
-    </style>
 </head>
 <body class="bg-gradient-to-br from-slate-50 to-gray-100 text-gray-900">
     <!-- Header -->
@@ -117,63 +103,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        const translations = {
-            en: {
-                nav_products: 'Products',
-                nav_contact: 'Contact',
-                hero_tagline: 'Applications for Your Life',
-                products_title: 'Products',
-                product1_desc: 'A music folklore archive bridging past and present - explore Vietnam\'s musical heritage through stories and memories.',
-                product2_title: 'Pregnancy Nutrition',
-                product2_desc: 'Maternal health guidance with comprehensive nutrition and wellness advice for mothers and babies during pregnancy.',
-                view_product: 'View Product',
-                contact_title: 'Contact',
-                contact_email: 'Email',
-                contact_phone: 'Phone',
-                contact_address: 'Address',
-                footer_copyright: '&copy; 2026 Dilabs. All rights reserved.'
-            },
-            vi: {
-                nav_products: 'Sản phẩm',
-                nav_contact: 'Liên hệ',
-                hero_tagline: 'Ứng dụng cho Cuộc sống của Bạn',
-                products_title: 'Sản phẩm',
-                product1_desc: 'Thư viện Giai thoại Âm nhạc Xưa và Nay - khám phá di sản âm nhạc Việt Nam qua những câu chuyện và kỷ niệm.',
-                product2_title: 'Dinh dưỡng Thai kỳ',
-                product2_desc: 'Tra cứu chế độ dinh dưỡng nên dùng và cần tránh mỗi tuần, hỗ trợ Mẹ ăn uống khoa học để Bé Yêu phát triển khỏe mạnh nhất!',
-                view_product: 'Xem Sản phẩm',
-                contact_title: 'Liên hệ',
-                contact_email: 'Email',
-                contact_phone: 'Điện thoại',
-                contact_address: 'Địa chỉ',
-                footer_copyright: '&copy; 2026 Dilabs. Giữ mọi quyền.'
-            }
-        };
-
-        function setLanguage(lang) {
-            const elements = document.querySelectorAll('[data-i18n]');
-            elements.forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                if (translations[lang] && translations[lang][key]) {
-                    el.innerHTML = translations[lang][key];
-                }
-            });
-            localStorage.setItem('language', lang);
-            document.documentElement.lang = lang;
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const langSelect = document.getElementById('langSelect');
-            const savedLang = localStorage.getItem('language') || 'en';
-            
-            langSelect.value = savedLang;
-            setLanguage(savedLang);
-            
-            langSelect.addEventListener('change', (e) => {
-                setLanguage(e.target.value);
-            });
-        });
-    </script>
 </body>
 </html>

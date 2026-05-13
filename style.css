@@ -57,3 +57,17 @@ body {
     width: 100%;
     left: 0;
 }
+
+.lang-select {
+    background: white;
+    border: 1px solid #e5e7eb;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.3s;
+}
+
+.lang-select:hover {
+    border-color: #3b82f6;
+}
