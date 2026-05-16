@@ -78,24 +78,53 @@ const translations = {
 
 function setLanguage(lang) {
     const elements = document.querySelectorAll('[data-i18n]');
+    const langBadge = document.getElementById('langBadge');
+
     elements.forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
             el.innerHTML = translations[lang][key];
         }
     });
+
+    if (langBadge) {
+        langBadge.textContent = lang.toUpperCase();
+    }
+
     localStorage.setItem('language', lang);
     document.documentElement.lang = lang;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const langSelect = document.getElementById('langSelect');
+    const menuToggle = document.getElementById('menuToggle');
+    const mainMenu = document.getElementById('mainMenu');
     const savedLang = localStorage.getItem('language') || 'en';
-    
+
     langSelect.value = savedLang;
     setLanguage(savedLang);
-    
+
     langSelect.addEventListener('change', (e) => {
         setLanguage(e.target.value);
     });
+
+    if (menuToggle && mainMenu) {
+        menuToggle.addEventListener('click', () => {
+            const isOpen = mainMenu.classList.toggle('is-open');
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+            menuToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+            menuToggle.innerHTML = isOpen
+                ? '<i class="fas fa-times" aria-hidden="true"></i>'
+                : '<i class="fas fa-bars" aria-hidden="true"></i>';
+        });
+
+        mainMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mainMenu.classList.remove('is-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', 'Open menu');
+                menuToggle.innerHTML = '<i class="fas fa-bars" aria-hidden="true"></i>';
+            });
+        });
+    }
 });
