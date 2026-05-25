@@ -1,6 +1,6 @@
-# Dilabs Website
+# DiLabs Website
 
-A simple landing page for Dilabs, a company focused on production and community-oriented services.
+A simple landing page for DiLabs, a company focused on production and community-oriented services.
 
 ## Features
 

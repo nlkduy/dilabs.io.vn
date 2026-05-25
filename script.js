@@ -57,7 +57,7 @@ const translations = {
         contact_email: 'Email',
         contact_phone: 'Phone',
         contact_address: 'Address',
-        footer_copyright: '&copy; 2026 Dilabs. All rights reserved.'
+        footer_copyright: '&copy; 2026 DiLabs. All rights reserved.'
     },
     vi: {
         nav_products: 'Sản phẩm',
@@ -72,7 +72,7 @@ const translations = {
         contact_email: 'Email',
         contact_phone: 'Điện thoại',
         contact_address: 'Địa chỉ',
-        footer_copyright: '&copy; 2026 Dilabs. Giữ mọi quyền.'
+        footer_copyright: '&copy; 2026 DiLabs. Giữ mọi quyền.'
     }
 };
 
