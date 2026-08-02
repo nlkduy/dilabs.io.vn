@@ -15,13 +15,13 @@ $translations = [
         // Hero
         'hero_badge'            => 'Digital products from Can Tho, Vietnam',
         'hero_tagline'          => 'Build the Apps You Live With',
-        'hero_sub'              => 'Practical applications for everyday life — from Vietnamese music heritage to pregnancy nutrition and modern music streaming.',
+        'hero_sub'              => 'Practical, friendly applications built to be part of your everyday life.',
         'hero_cta_products'     => 'Explore products',
         'hero_cta_contact'      => 'Get in touch',
 
         // Products section
         'products_title'        => 'Products',
-        'products_sub'          => 'Three products, one goal: apps you actually live with.',
+        'products_sub'          => 'Every product has one goal: to be an app you actually live with.',
         'since'                 => 'Since',
         'learn_more'            => 'Learn more',
         'visit_site'            => 'Visit website',
@@ -35,7 +35,7 @@ $translations = [
 
         // VàngSon.info
         'vangson_name'          => 'VàngSon.info',
-        'vangson_tagline'       => 'The golden era of Vietnamese music, retold',
+        'vangson_tagline'       => 'The golden era of Vietnamese music',
         'vangson_desc'          => "A music folklore archive bridging past and present - explore Vietnam's musical heritage through stories and memories.",
         'vangson_about'         => 'VàngSon.info is a digital archive preserving the golden era of Vietnamese music. Launched in 2017, it collects the anecdotes, stories and memories surrounding beloved songs and the artists who created them — keeping a cultural heritage alive for future generations.',
         'vangson_f1_t'          => 'Story archive',
@@ -89,13 +89,13 @@ $translations = [
         // Hero
         'hero_badge'            => 'Sản phẩm số từ Cần Thơ, Việt Nam',
         'hero_tagline'          => 'Build the Apps You Live With',
-        'hero_sub'              => 'Những ứng dụng thiết thực cho cuộc sống hằng ngày — từ di sản âm nhạc Việt Nam đến dinh dưỡng thai kỳ và nghe nhạc trực tuyến.',
+        'hero_sub'              => 'Những ứng dụng thiết thực và gần gũi, được xây dựng để đồng hành cùng bạn mỗi ngày.',
         'hero_cta_products'     => 'Khám phá sản phẩm',
         'hero_cta_contact'      => 'Liên hệ ngay',
 
         // Products section
         'products_title'        => 'Sản phẩm',
-        'products_sub'          => 'Ba sản phẩm, một mục tiêu: những ứng dụng bạn thực sự dùng mỗi ngày.',
+        'products_sub'          => 'Mỗi sản phẩm đều hướng đến một mục tiêu: trở thành ứng dụng bạn thực sự dùng mỗi ngày.',
         'since'                 => 'Từ năm',
         'learn_more'            => 'Tìm hiểu thêm',
         'visit_site'            => 'Truy cập website',
@@ -109,7 +109,7 @@ $translations = [
 
         // VàngSon.info
         'vangson_name'          => 'VàngSon.info',
-        'vangson_tagline'       => 'Thời vàng son của âm nhạc Việt, kể lại',
+        'vangson_tagline'       => 'Thời vàng son của âm nhạc Việt',
         'vangson_desc'          => 'Thư viện Giai thoại Âm nhạc Xưa và Nay - khám phá di sản âm nhạc Việt Nam qua những câu chuyện và kỷ niệm.',
         'vangson_about'         => 'VàngSon.info là thư viện số lưu giữ thời hoàng kim của âm nhạc Việt Nam. Ra mắt năm 2017, trang tập hợp những giai thoại, câu chuyện và kỷ niệm xoay quanh các ca khúc được yêu mến cùng những nghệ sĩ đã tạo nên chúng — gìn giữ di sản văn hóa cho các thế hệ mai sau.',
         'vangson_f1_t'          => 'Kho giai thoại',

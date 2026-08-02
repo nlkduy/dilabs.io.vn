@@ -30,7 +30,7 @@ $navPrefix = $isHome ? '' : 'index.php';
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= $pageUrl ?>">
     <link rel="icon" type="image/png" href="favicon.png">
-    <meta name="theme-color" content="#05060a">
+    <meta name="theme-color" content="#f8fafc">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="DiLabs">
     <meta property="og:title" content="<?= $pageTitle ?>">
@@ -88,8 +88,8 @@ $navPrefix = $isHome ? '' : 'index.php';
                 <i class="fas fa-bars" aria-hidden="true"></i>
             </button>
             <ul id="mainMenu" class="main-menu flex space-x-8 items-center">
-                <li><a href="<?= $navPrefix ?>#products" class="nav-link text-gray-300 hover:text-white font-medium"><?= t('nav_products') ?></a></li>
-                <li><a href="<?= $navPrefix ?>#about" class="nav-link text-gray-300 hover:text-white font-medium"><?= t('nav_contact') ?></a></li>
+                <li><a href="<?= $navPrefix ?>#products" class="nav-link text-gray-600 hover:text-gray-900 font-medium"><?= t('nav_products') ?></a></li>
+                <li><a href="<?= $navPrefix ?>#about" class="nav-link text-gray-600 hover:text-gray-900 font-medium"><?= t('nav_contact') ?></a></li>
                 <li>
                     <label class="lang-picker" for="langSelect" aria-label="Select language">
                         <span id="langBadge" class="lang-badge" aria-hidden="true"><?= strtoupper($lang) ?></span>
