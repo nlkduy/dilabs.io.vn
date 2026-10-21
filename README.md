@@ -16,6 +16,7 @@ Open `index.html` in a browser to view the page.
 ## Files
 
 - `index.html` - main website markup
+- `product.html` - product detail page
 - `style.css` - styling for the page
 - `script.js` - optional scripts
 - `favicon.png` - favicon image

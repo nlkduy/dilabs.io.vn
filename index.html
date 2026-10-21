@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SMBHTKMHL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-9SMBHTKMHL');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiLabs - Build the Apps You Live With</title>
+    <meta name="description" content="DiLabs creates practical applications for everyday life: Vietnamese music heritage, pregnancy nutrition guidance and modern music streaming." data-i18n-content="meta_description">
+    <meta name="keywords" content="DiLabs, applications, Vietnam, Vietnamese apps, music archive, pregnancy nutrition, music streaming, VangSon, LazyMus, dinh duong thai ky">
+    <meta name="author" content="DiLabs">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://dilabs.io.vn/">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="theme-color" content="#f8fafc">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DiLabs">
+    <meta property="og:title" content="DiLabs - Build the Apps You Live With">
+    <meta property="og:description" content="DiLabs creates practical applications for everyday life: Vietnamese music heritage, pregnancy nutrition guidance and modern music streaming.">
+    <meta property="og:url" content="https://dilabs.io.vn/">
+    <meta property="og:image" content="https://dilabs.io.vn/background.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="vi_VN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DiLabs - Build the Apps You Live With">
+    <meta name="twitter:description" content="DiLabs creates practical applications for everyday life: Vietnamese music heritage, pregnancy nutrition guidance and modern music streaming.">
+    <meta name="twitter:image" content="https://dilabs.io.vn/background.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "DiLabs",
+            "url": "https://dilabs.io.vn/",
+            "logo": "https://dilabs.io.vn/favicon.png",
+            "email": "info@dilabs.io.vn",
+            "telephone": "+84972342075",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Can Tho City",
+                "addressCountry": "VN"
+            },
+            "sameAs": [
+                "https://vangson.info",
+                "https://dilabs.io.vn/lazymus/"
+            ]
+        }
+    </script>
+</head>
+<body>
+    <div class="aurora" aria-hidden="true">
+        <span class="aurora-blob aurora-1"></span>
+        <span class="aurora-blob aurora-2"></span>
+        <span class="aurora-blob aurora-3"></span>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 glass-nav z-30">
+        <nav class="site-nav container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-0">
+                <img src="favicon.png" alt="D" class="h-8 w-8">
+                <span class="-ml-1 text-3xl font-bold font-display gradient-text">iLabs</span>
+            </a>
+            <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mainMenu">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul id="mainMenu" class="main-menu flex space-x-8 items-center">
+                <li><a href="#products" class="nav-link text-gray-600 hover:text-gray-900 font-medium" data-i18n="nav_products">Products</a></li>
+                <li><a href="#about" class="nav-link text-gray-600 hover:text-gray-900 font-medium" data-i18n="nav_contact">Contact</a></li>
+                <li>
+                    <label class="lang-picker" for="langSelect" aria-label="Select language">
+                        <span id="langBadge" class="lang-badge" aria-hidden="true">EN</span>
+                        <select id="langSelect" class="lang-select">
+                            <option value="en">English</option>
+                            <option value="vi">Tiếng Việt</option>
+                        </select>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-28 md:py-40 overflow-hidden">
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <div class="hero-text max-w-6xl mx-auto">
+                <span class="chip mb-8"><span class="dot"></span><span data-i18n="hero_badge">Digital products from Can Tho, Vietnam</span></span>
+                <h1 class="font-display text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold leading-tight tracking-tight mb-6 gradient-text lg:whitespace-nowrap" data-i18n="hero_tagline">Build the Apps You Live With</h1>
+                <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed" data-i18n="hero_sub">Practical, friendly applications built to be part of your everyday life.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#products" class="btn-primary">
+                        <span data-i18n="hero_cta_products">Explore products</span>
+                        <i class="fas fa-arrow-down text-sm" aria-hidden="true"></i>
+                    </a>
+                    <a href="#about" class="btn-ghost" data-i18n="hero_cta_contact">Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4" data-i18n="products_title">Products</h2>
+                <p class="text-gray-600 text-lg" data-i18n="products_sub">Every product has one goal: to be an app you actually live with.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- VàngSon.info -->
+                <div class="product-card fade-in p-8" style="--glow: rgba(244, 63, 94, 0.25);">
+                    <div class="card-shine"></div>
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-14 h-14 bg-gradient-to-br from-rose-500 to-orange-400 rounded-2xl flex items-center justify-center">
+                            <i class="fas fa-music text-xl text-white" aria-hidden="true"></i>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="chip !py-1 !px-3 text-xs"><span data-i18n="since">Since</span> 2017</span>
+                        </div>
+                    </div>
+                    <h3 class="font-display text-2xl font-bold mb-1 text-gray-900" data-i18n="vangson_name">VàngSon.info</h3>
+                    <p class="text-sm text-rose-600 mb-4" data-i18n="vangson_tagline">The golden era of Vietnamese music</p>
+                    <p class="text-gray-600 leading-relaxed mb-8" data-i18n="vangson_desc">A music folklore archive bridging past and present - explore Vietnam's musical heritage through stories and memories.</p>
+                    <div class="flex items-center gap-3">
+                        <a href="product.html?p=vangson" class="inline-flex items-center gap-2 bg-gradient-to-r from-rose-500 to-orange-400 text-white font-semibold py-2.5 px-5 rounded-full text-sm hover:opacity-90 transition-opacity">
+                            <span data-i18n="learn_more">Learn more</span>
+                            <i class="fas fa-arrow-right text-xs" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://vangson.info" target="_blank" rel="noopener noreferrer" class="btn-ghost !py-2.5 !px-4 text-sm" data-i18n-title="visit_site" data-i18n-aria="visit_site" title="Visit website" aria-label="Visit website">
+                            <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Dinh dưỡng Thai kỳ -->
+                <div class="product-card fade-in p-8" style="--glow: rgba(20, 184, 166, 0.25);">
+                    <div class="card-shine"></div>
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-14 h-14 bg-gradient-to-br from-teal-400 to-emerald-500 rounded-2xl flex items-center justify-center">
+                            <i class="fas fa-baby text-xl text-white" aria-hidden="true"></i>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="chip !py-1 !px-3 text-xs"><span data-i18n="since">Since</span> 2026</span>
+                        </div>
+                    </div>
+                    <h3 class="font-display text-2xl font-bold mb-1 text-gray-900" data-i18n="dinhduongthaiky_name">Pregnancy Nutrition</h3>
+                    <p class="text-sm text-teal-600 mb-4" data-i18n="dinhduongthaiky_tagline">Eat right, week by week</p>
+                    <p class="text-gray-600 leading-relaxed mb-8" data-i18n="dinhduongthaiky_desc">Maternal health guidance with comprehensive nutrition and wellness advice for mothers and babies during pregnancy.</p>
+                    <div class="flex items-center gap-3">
+                        <a href="product.html?p=dinhduongthaiky" class="inline-flex items-center gap-2 bg-gradient-to-r from-teal-400 to-emerald-500 text-white font-semibold py-2.5 px-5 rounded-full text-sm hover:opacity-90 transition-opacity">
+                            <span data-i18n="learn_more">Learn more</span>
+                            <i class="fas fa-arrow-right text-xs" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://dilabs.io.vn/dinhduongthaiky" target="_blank" rel="noopener noreferrer" class="btn-ghost !py-2.5 !px-4 text-sm" data-i18n-title="visit_site" data-i18n-aria="visit_site" title="Visit website" aria-label="Visit website">
+                            <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- LazyMus -->
+                <div class="product-card fade-in p-8" style="--glow: rgba(139, 92, 246, 0.25);">
+                    <div class="card-shine"></div>
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-14 h-14 bg-gradient-to-br from-violet-500 to-blue-500 rounded-2xl flex items-center justify-center">
+                            <i class="fas fa-headphones text-xl text-white" aria-hidden="true"></i>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="chip !py-1 !px-3 text-xs"><span data-i18n="since">Since</span> 2026</span>
+                            <span class="chip !py-1 !px-3 text-xs text-violet-600">Alpha</span>
+                        </div>
+                    </div>
+                    <h3 class="font-display text-2xl font-bold mb-1 text-gray-900" data-i18n="lazymus_name">LazyMus</h3>
+                    <p class="text-sm text-violet-600 mb-4" data-i18n="lazymus_tagline">Modern music streaming on the web</p>
+                    <p class="text-gray-600 leading-relaxed mb-8" data-i18n="lazymus_desc">A sleek online music player — browse albums, artists and labels, search instantly and hit play right in your browser.</p>
+                    <div class="flex items-center gap-3">
+                        <a href="product.html?p=lazymus" class="inline-flex items-center gap-2 bg-gradient-to-r from-violet-500 to-blue-500 text-white font-semibold py-2.5 px-5 rounded-full text-sm hover:opacity-90 transition-opacity">
+                            <span data-i18n="learn_more">Learn more</span>
+                            <i class="fas fa-arrow-right text-xs" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://dilabs.io.vn/lazymus/" target="_blank" rel="noopener noreferrer" class="btn-ghost !py-2.5 !px-4 text-sm" data-i18n-title="visit_site" data-i18n-aria="visit_site" title="Visit website" aria-label="Visit website">
+                            <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="fade-in max-w-5xl mx-auto">
+                <div class="glass rounded-3xl p-10 md:p-16 text-center">
+                    <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4" data-i18n="contact_title">Contact</h2>
+                    <p class="text-gray-600 text-lg mb-12" data-i18n="contact_sub">Have a question or an idea? We would love to hear from you.</p>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="feature-card p-6 text-center">
+                            <div class="text-2xl mb-3 text-indigo-600"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                            <p class="font-semibold text-gray-900 mb-2" data-i18n="contact_email">Email</p>
+                            <p class="text-gray-600 text-sm break-all">nguyenlukhanhduy@gmail.com</p>
+                        </div>
+                        <div class="feature-card p-6 text-center">
+                            <div class="text-2xl mb-3 text-indigo-600"><i class="fas fa-phone" aria-hidden="true"></i></div>
+                            <p class="font-semibold text-gray-900 mb-2" data-i18n="contact_phone">Phone</p>
+                            <p class="text-gray-600 text-sm">097 2 342 075</p>
+                        </div>
+                        <div class="feature-card p-6 text-center">
+                            <div class="text-2xl mb-3 text-indigo-600"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                            <p class="font-semibold text-gray-900 mb-2" data-i18n="contact_address">Address</p>
+                            <p class="text-gray-600 text-sm">Can Tho City, Vietnam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 bg-white/60 py-14 mt-4">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-10 mb-10">
+                <div>
+                    <div class="flex items-center gap-0 mb-3">
+                        <img src="favicon.png" alt="D" class="h-7 w-7">
+                        <span class="-ml-1 text-2xl font-bold font-display gradient-text">iLabs</span>
+                    </div>
+                    <p class="text-gray-500 text-sm leading-relaxed" data-i18n="hero_tagline">Build the Apps You Live With</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-900 mb-4" data-i18n="nav_products">Products</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="product.html?p=vangson" class="text-gray-500 hover:text-gray-900 transition-colors" data-i18n="vangson_name">VàngSon.info</a></li>
+                        <li><a href="product.html?p=dinhduongthaiky" class="text-gray-500 hover:text-gray-900 transition-colors" data-i18n="dinhduongthaiky_name">Pregnancy Nutrition</a></li>
+                        <li><a href="product.html?p=lazymus" class="text-gray-500 hover:text-gray-900 transition-colors" data-i18n="lazymus_name">LazyMus</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-900 mb-4" data-i18n="nav_contact">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li><i class="fas fa-envelope mr-2 text-gray-400"></i>nguyenlukhanhduy@gmail.com</li>
+                        <li><i class="fas fa-phone mr-2 text-gray-400"></i>097 2 342 075</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 text-gray-400"></i>Can Tho City, Vietnam</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 pt-8 text-center">
+                <p class="text-sm text-gray-500" data-i18n="footer_copyright">© 2026 DiLabs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
