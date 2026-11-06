@@ -15,7 +15,7 @@ const productsData = {
         gradient: 'from-teal-400 to-emerald-500',
         accent: 'text-teal-600',
         glow: 'rgba(20, 184, 166, 0.25)',
-        url: 'https://dilabs.io.vn/dinhduongthaiky',
+        url: 'https://dinhduongthaiky.vercel.app/',
         year: '2026',
         status: null,
         feature_icons: ['fa-calendar-week', 'fa-utensils', 'fa-lightbulb']
@@ -25,7 +25,7 @@ const productsData = {
         gradient: 'from-violet-500 to-blue-500',
         accent: 'text-violet-600',
         glow: 'rgba(139, 92, 246, 0.25)',
-        url: 'https://dilabs.io.vn/lazymus/',
+        url: 'https://lazymus.vercel.app/',
         year: '2026',
         status: 'Alpha',
         feature_icons: ['fa-play', 'fa-record-vinyl', 'fa-magnifying-glass']
